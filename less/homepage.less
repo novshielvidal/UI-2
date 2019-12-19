@@ -5,13 +5,29 @@
 
 .box-left {
     width: 70%;
-    padding-left: @space;
     font-weight: bold;
+
+    .title {
+        h1 {
+            color: @light-blue;
+            font-size: 4rem;
+            font-weight: bold;
+            background-color: rgba(255, 255, 255, .7);
+            padding: 1rem 0;
+            padding-left: @space;
+        }
+    }
+
+    p {
+        padding-left: @space;
+    }
 }
 
 .box-right {
+    flex-direction: column;
     width: 30%;
     padding-right: @space;
+    position: relative;
 }
 
 a {
@@ -20,5 +36,5 @@ a {
 }
 
 a:hover {
-
+    color: @light-blue;
 }
