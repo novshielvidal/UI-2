@@ -132,6 +132,7 @@ body {
   /*end container */
 }
 body .container {
+  color: #E3E3E3;
   /* end header */
   min-height: 100vh;
   background-image: url("../img/hands-together.jpeg");
@@ -201,4 +202,21 @@ footer a {
 }
 footer a:hover {
   color: #E3E3E3;
+}
+.main-box {
+  display: flex;
+  flex-direction: row;
+}
+.box-left {
+  width: 70%;
+  padding-left: 2rem;
+  font-weight: bold;
+}
+.box-right {
+  width: 30%;
+  padding-right: 2rem;
+}
+a {
+  color: #4B5CA8;
+  text-decoration: none;
 }
