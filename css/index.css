@@ -133,22 +133,21 @@ body {
 }
 body .container {
   /* end header */
-  /* end img-box-left */
-}
-body .container header {
-  display: flex;
-  flex-direction: column;
+  min-height: 100vh;
   background-image: url("../img/hands-together.jpeg");
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
   align-content: center;
 }
-body .container .title h1 {
-  color: #0A2B9F;
+body .container header {
+  display: flex;
+  flex-direction: column;
+}
+body .container header .title h1 {
+  color: #4B5CA8;
   font-size: 4rem;
   font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 1rem;
 }
 /* end body */
@@ -170,4 +169,16 @@ body .container .title h1 {
 }
 .nav-links ul li:hover a {
   text-decoration-line: line-through;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(13, 17, 31, 0.7);
+  color: silver;
+  padding: 0.75rem 1rem;
+  text-align: right;
+}
+footer a {
+  color: #4B5CA8;
+  text-decoration: none;
 }
