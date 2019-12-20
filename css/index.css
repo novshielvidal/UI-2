@@ -160,7 +160,7 @@ body .container {
   text-decoration: none;
 }
 .nav-links ul li:hover a {
-  color: #349CE3;
+  color: #AA6C5A;
 }
 .nav-links ul:first-child {
   width: 70%;
@@ -188,7 +188,7 @@ footer a {
   text-decoration: none;
 }
 footer a:hover {
-  color: #E3E3E3;
+  color: #AA6C5A;
 }
 .main-box {
   display: flex;
@@ -220,5 +220,5 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #349CE3;
+  color: #E3E3E3;
 }
