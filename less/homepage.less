@@ -1,13 +1,11 @@
 .main-box {
     display: flex;
-    flex-direction: row;
-}
-
-.box-left {
-    width: 70%;
+    flex-direction: column;
     font-weight: bold;
+    min-height: 85vh;
 
     .title {
+        min-width: 100vw;
         h1 {
             color: @light-blue;
             font-size: 4rem;
@@ -19,15 +17,15 @@
     }
 
     p {
-        padding-left: @space;
+        min-width: 100vw;
+        padding: @space;
+        background-color: rgba(13, 17, 31, .7);
+        .story {
+            font-size: 2rem;
+            font-weight: bold;
+            font-style: italic;
+        }
     }
-}
-
-.box-right {
-    flex-direction: column;
-    width: 30%;
-    padding-right: @space;
-    position: relative;
 }
 
 a {

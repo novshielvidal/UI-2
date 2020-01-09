@@ -143,6 +143,7 @@ body .container {
 .nav-links {
   display: flex;
   flex-direction: row;
+  min-height: 5vh;
   /*-- end ul --*/
 }
 .nav-links ul {
@@ -182,6 +183,7 @@ footer {
   padding: 0.75rem 0;
   padding-right: 2rem;
   text-align: right;
+  min-height: 10vh;
 }
 footer a {
   color: #349CE3;
@@ -192,13 +194,14 @@ footer a:hover {
 }
 .main-box {
   display: flex;
-  flex-direction: row;
-}
-.box-left {
-  width: 70%;
+  flex-direction: column;
   font-weight: bold;
+  min-height: 85vh;
 }
-.box-left .title h1 {
+.main-box .title {
+  min-width: 100vw;
+}
+.main-box .title h1 {
   color: #349CE3;
   font-size: 4rem;
   font-weight: bold;
@@ -206,14 +209,15 @@ footer a:hover {
   padding: 1rem 0;
   padding-left: 2rem;
 }
-.box-left p {
-  padding-left: 2rem;
+.main-box p {
+  min-width: 100vw;
+  padding: 2rem;
+  background-color: rgba(13, 17, 31, 0.7);
 }
-.box-right {
-  flex-direction: column;
-  width: 30%;
-  padding-right: 2rem;
-  position: relative;
+.main-box p .story {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
 }
 a {
   color: #4B5CA8;
