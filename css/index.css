@@ -20,6 +20,16 @@
   padding: 1rem 0;
   padding-left: 2rem;
 }
+@media (max-width: 500px) {
+  .title-design h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  .title-design h1 {
+    font-size: 3rem;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -158,6 +168,7 @@ body .container {
   background-image: url("../img/hands-together.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-color: #0D111F;
   color: #E3E3E3;
   min-height: 100vh;
   align-content: center;
@@ -175,6 +186,16 @@ body .about-container {
   flex-direction: row;
   max-height: 5vh;
   /*-- end ul --*/
+}
+@media (max-width: 500px) {
+  .nav-links {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .nav-links {
+    font-size: 0.7rem;
+  }
 }
 .nav-links ul {
   display: flex;
@@ -241,6 +262,16 @@ footer a:hover {
   padding: 1rem 0;
   padding-left: 2rem;
 }
+@media (max-width: 500px) {
+  .main-box .title h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  .main-box .title h1 {
+    font-size: 3rem;
+  }
+}
 .main-box p {
   padding: 2rem;
   background-color: rgba(13, 17, 31, 0.7);
@@ -273,6 +304,16 @@ a:hover {
   padding: 1rem 0;
   padding-left: 2rem;
 }
+@media (max-width: 500px) {
+  .about-main-box h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  .about-main-box h1 {
+    font-size: 3rem;
+  }
+}
 .about-main-box .about-title {
   background-color: rgba(255, 255, 255, 0.9);
   min-width: 100vw;
@@ -283,6 +324,16 @@ a:hover {
   font-weight: bold;
   padding: 1rem 0;
   padding-left: 2rem;
+}
+@media (max-width: 500px) {
+  .about-main-box .about-title h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  .about-main-box .about-title h1 {
+    font-size: 3rem;
+  }
 }
 .about-main-box p {
   margin: 2rem;
@@ -296,6 +347,16 @@ a:hover {
 .about-main-box .row .box {
   padding-left: 4rem;
   margin-bottom: 2rem;
+}
+@media (max-width: 500px) {
+  .about-main-box .row .box img {
+    width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  .about-main-box .row .box img {
+    width: 60%;
+  }
 }
 @media (min-width: 1000px) {
   .about-main-box .row {
