@@ -174,9 +174,9 @@ body .container {
   align-content: center;
   position: relative;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   body .container {
-    background-image: url("../img/hands-together-500.jpeg");
+    background-image: url("../img/hands-together-1000.jpeg");
   }
 }
 @media (max-width: 800px) {
@@ -184,9 +184,9 @@ body .container {
     background-image: url("../img/hands-together-800.jpeg");
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
   body .container {
-    background-image: url("../img/hands-together-1000.jpeg");
+    background-image: url("../img/hands-together-500.jpeg");
   }
 }
 body .about-container {
