@@ -297,7 +297,7 @@ a:hover {
   padding-left: 4rem;
   margin-bottom: 2rem;
 }
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .about-main-box .row {
     display: flex;
     flex-direction: row;
