@@ -284,3 +284,18 @@ a:hover {
   padding: 1rem 0;
   padding-left: 2rem;
 }
+.about-main-box p {
+  margin: 2rem;
+  padding-top: 1rem;
+  align-self: center;
+  text-decoration: underline;
+}
+.about-main-box .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.about-main-box .row .box {
+  padding-left: 4rem;
+}
