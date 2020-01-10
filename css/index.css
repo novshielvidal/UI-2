@@ -260,6 +260,11 @@ footer a {
 footer a:hover {
   color: #AA6C5A;
 }
+@media (max-width: 500px) {
+  footer .photo-credit {
+    visibility: hidden;
+  }
+}
 .main-box {
   display: flex;
   flex-direction: column;
@@ -363,14 +368,14 @@ a:hover {
   padding-left: 4rem;
   margin-bottom: 2rem;
 }
-@media (max-width: 500px) {
-  .about-main-box .row .box img {
-    width: 50%;
-  }
-}
 @media (max-width: 800px) {
   .about-main-box .row .box img {
     width: 60%;
+  }
+}
+@media (max-width: 500px) {
+  .about-main-box .row .box img {
+    width: 50%;
   }
 }
 @media (min-width: 1000px) {
