@@ -365,7 +365,7 @@ a:hover {
   justify-content: center;
 }
 .about-main-box .row .box {
-  padding-left: 4rem;
+  padding: 0 4rem;
   margin-bottom: 2rem;
 }
 @media (max-width: 800px) {
@@ -376,6 +376,11 @@ a:hover {
 @media (max-width: 500px) {
   .about-main-box .row .box img {
     width: 50%;
+  }
+}
+@media (min-width: 1000px) {
+  .about-main-box .row .box {
+    width: 25%;
   }
 }
 @media (min-width: 1000px) {
